@@ -1,0 +1,29 @@
+{
+  "name": "aliance-production",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "inputmask": "^5.0.7",
+    "node-sass": "^4.14.1",
+    "sass": "^1.55.0",
+    "sass-loader": "^13.2.0",
+    "siper": "^2.0.0",
+    "swiper": "^8.4.4",
+    "vue": "^3.2.13",
+    "vue-plugin-load-script": "^2.1.1",
+    "vue-router": "^4.0.3",
+    "vue-yandex-maps": "^0.11.13",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@types/inputmask": "^5.0.3",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "~5.0.0"
+  }
+}

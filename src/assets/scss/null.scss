@@ -1,0 +1,84 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+aside,
+nav,
+footer,
+header,
+section {
+	display: block;
+}
+html,
+body,
+#app {
+	height: 100%;
+	min-width: $minWidth;
+}
+body,
+#app {
+	line-height: 1;
+	color: $fontColor;
+	font-family: $fontFamily;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+	background: none;
+	color: $fontColor;
+	font-family: $fontFamily;
+}
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a {
+	text-decoration: none;
+	color: $fontColor;
+}
+a:hover,
+a:visited{
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img, picture {
+	vertical-align: top;
+	pointer-events: none;
+	user-select: none
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
